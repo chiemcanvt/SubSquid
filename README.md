@@ -11,9 +11,9 @@ npm i -g @subsquid/cli@latest
 
 Sign in to Aquarium, and obtain (or refresh) the deployment key on the account page by clicking at the profile picture at the bottom.
 
-sqd auth -k <DEPLOYMENT_KEY> #replace <DEPLOYMENT_KEY> with your DEPLOYMENT_KEY
+sqd auth -k "DEPLOYMENT_KEY" #replace "DEPLOYMENT_KEY" with your DEPLOYMENT_KEY
 
-sqd init <your-CLI-name> --template evm
+sqd init "your-CLI-name" --template evm
 
-sqd deploy --org <your-CLI> ./...
+sqd deploy --org "your-CLI" ./...
 
